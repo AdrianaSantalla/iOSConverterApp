@@ -12,5 +12,5 @@ The application converts the input data while typing on the text field and also 
 
 In the ViewController, the decimal keyboard is selected for the input. If a normal keyboard is needed, this line should be commented.
 
-`<addr>` // COMMENT NEXT LINE IF NORMAL KEYBOARD IS REQUIRED
-`<addr>` _dataField.keyboardType = UIKeyboardTypeDecimalPad;
+1.  // COMMENT NEXT LINE IF NORMAL KEYBOARD IS REQUIRED
+2.  _dataField.keyboardType = UIKeyboardTypeDecimalPad;
