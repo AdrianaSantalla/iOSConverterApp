@@ -7,8 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ConverterCore.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate, UITextFieldDelegate>
+{
+    ConverterCore *conver;
+}
+
+@property (weak, nonatomic) IBOutlet UITextField *dataField;
+
+@property (weak, nonatomic) IBOutlet UIPickerView *mesure;
+
+@property (weak, nonatomic) IBOutlet UIPickerView *fromTo;
+
+@property (weak, nonatomic) IBOutlet UILabel *result;
 
 
 @end

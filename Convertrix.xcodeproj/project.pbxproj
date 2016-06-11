@@ -13,6 +13,7 @@
 		3AE5E4FE1D0A95ED00953BC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE5E4FC1D0A95ED00953BC6 /* Main.storyboard */; };
 		3AE5E5001D0A95ED00953BC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AE5E4FF1D0A95ED00953BC6 /* Assets.xcassets */; };
 		3AE5E5031D0A95ED00953BC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE5E5011D0A95ED00953BC6 /* LaunchScreen.storyboard */; };
+		3AE5E50C1D0B3C3F00953BC6 /* ConverterCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE5E50B1D0B3C3F00953BC6 /* ConverterCore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		3AE5E4FF1D0A95ED00953BC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AE5E5021D0A95ED00953BC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AE5E5041D0A95ED00953BC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AE5E50A1D0B3C3F00953BC6 /* ConverterCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConverterCore.h; sourceTree = "<group>"; };
+		3AE5E50B1D0B3C3F00953BC6 /* ConverterCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConverterCore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				3AE5E5011D0A95ED00953BC6 /* LaunchScreen.storyboard */,
 				3AE5E5041D0A95ED00953BC6 /* Info.plist */,
 				3AE5E4F31D0A95ED00953BC6 /* Supporting Files */,
+				3AE5E50A1D0B3C3F00953BC6 /* ConverterCore.h */,
+				3AE5E50B1D0B3C3F00953BC6 /* ConverterCore.m */,
 			);
 			path = Convertrix;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 				3AE5E4FB1D0A95ED00953BC6 /* ViewController.m in Sources */,
 				3AE5E4F81D0A95ED00953BC6 /* AppDelegate.m in Sources */,
 				3AE5E4F51D0A95ED00953BC6 /* main.m in Sources */,
+				3AE5E50C1D0B3C3F00953BC6 /* ConverterCore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
