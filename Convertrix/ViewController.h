@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "ConverterCore.h"
 
-@interface ViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate, UITextFieldDelegate>
+@interface ViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate, UITextFieldDelegate, UITextFieldDelegate>
 {
     ConverterCore *conver;
 }
